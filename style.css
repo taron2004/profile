@@ -1,5 +1,9 @@
 body{
-    background-image: linear-gradient(to right, rgb(28, 153, 255) ,rgb(28, 10, 77));
+    background-image: linear-gradient(to right, rgb(133, 200, 255) ,rgb(28, 10, 77));
+}
+
+.clear{
+    clear: both;
 }
 header{
   
@@ -14,6 +18,21 @@ header a{
     text-decoration: none;
     color: aliceblue;
     display: block;
+   
+}
+nav{
+    margin-right: 130px;
+}
+nav a{
+    margin-right:  10px;
+}
+header nav a{
+   float: right;
+  
+}
+header a img{
+    width: 20px;
+    height: 20px;
 }
 header img{
     width: 100px;
@@ -24,4 +43,17 @@ header img{
   margin-left: auto;
   margin-right: auto;
 
+}
+
+.article{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.article a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
 }

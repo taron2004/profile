@@ -1,0 +1,25 @@
+body{
+    background-image: url('/images/hh.jpg');
+    background-repeat: no-repeat;
+  background-size: 950px 500px;
+opacity: 0.6;
+   
+}
+h1,p{
+    text-shadow: #ffffff 10px;
+     color: #ffffff;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+button{
+    
+    height: 20px;
+    float: right;
+}
+button a{
+    text-decoration: none;
+    color: #00158d;
+
+}
